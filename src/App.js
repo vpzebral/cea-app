@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("http://www.mocky.io/v2/5b5e6f662e00003400694500")
+    fetch("http://www.mocky.io/v2/5b5e74612e0000340069450f")
       .then(res => res.json())
       .then(
         (result) => {
