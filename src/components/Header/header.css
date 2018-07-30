@@ -1,0 +1,102 @@
+.header{
+    min-height: 200px;    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-area: header;   
+}
+
+.header .box-header{        
+    display: grid;   
+    align-items: start;
+    height: 100%;    
+    justify-content: center;
+    padding: 20px 0 10px;
+    grid-template-columns: 20% repeat(2, 1fr);
+}
+
+.header .box-logo{
+    display: grid;
+    justify-content: center;
+    align-content: center;      
+    height: 80%;
+    padding-left: 20px;
+    cursor: pointer;
+    border-right: 1px solid var(--theme-color-silver);
+}
+
+.header .box-login{
+    padding: 10px 30px;
+    display: grid;
+    gap: 5px;
+    justify-content: end
+}
+
+.header .box-search{
+    display: flex;
+    align-items: flex-end;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.header .form{
+    width: 70%;
+}
+.header .button{
+    margin-bottom: 4px;
+}
+
+.header .box-tote-bag-links{   
+    display: grid;
+    padding-top: 10px;
+    justify-content: center
+}
+
+.header .box-tote-bag-links .box-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.header .box-tote-bag{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header .box-tote-bag .icon-tote-bag{
+    height: 50px;
+    padding: 0 5px 0 0;
+}
+
+.header .box-tote-bag .qtda-itens{
+    padding: 0 0 0 10px;
+}
+
+.header .box-tote-bag .price-total{
+    padding: 0 5px;
+}
+
+.header .box-mobile-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.header .link-logo-mobile{
+    justify-self: center;
+}
+
+.header .link-search-mobile{
+    justify-self: end;
+}
+
+@media only screen and (max-width:1024px){
+    .header{
+        min-height: 60px;
+        background-color: var(--theme-color-primary);
+    }
+}

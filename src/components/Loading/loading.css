@@ -1,0 +1,9 @@
+.loading-app{
+    display: grid;
+    justify-items: center;
+    padding: 40px 0;
+}
+
+.loading-gif{
+    height: 50px;
+}

@@ -1,0 +1,38 @@
+.input-text{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid var(--theme-color-grey);
+    background: transparent;
+    transition: 0.45s ease-in-out;
+    padding: 0 2px;
+    font-size: 1em;
+    color: var(--theme-color-grey);
+    position: relative;
+}
+
+.input-text:hover{
+    border-bottom: 1.0px solid var(--theme-color-primary);
+}
+
+.input-text:focus{
+    border-bottom: 1.0px solid var(--theme-color-primary-hover);
+}
+
+.input-text:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.input-text-container{
+    display: grid;
+    padding: 5px 0;   
+}
+
+.input-text-label{
+    position: relative;
+    transition: 0.45s cubic-bezier(0.13, 1.43, 1, 1);
+    padding: 0 2px;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0;
+    top:25px
+}

@@ -1,0 +1,9 @@
+.command-link{
+    color: var(--theme-color-primary);
+    transition: var(--theme-transition);
+}
+
+.command-link:hover{
+    color: var(--theme-color-primary-hover);
+}
+

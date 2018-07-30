@@ -1,0 +1,20 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.vitrine-mobile{
+    padding: 20px;
+    height: 370px;
+}
+
+.vitrine-mobile .slick-slide{
+    height: 360px;
+}
+
+.vitrine-mobile .slick-dots li.slick-active button:before{
+    font-size: 12px;
+    color: var(--theme-color-primary);
+}
+.vitrine-mobile .slick-dots li button:before{
+    color: var(--theme-color-secundary);
+    opacity: 1;
+}

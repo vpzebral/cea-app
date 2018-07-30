@@ -1,0 +1,4 @@
+.header-content{
+    grid-area: header-content;    
+    overflow: hidden;
+}

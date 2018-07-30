@@ -1,0 +1,423 @@
+{
+    "header":{
+        "title":"C&A",
+        "logo":"https://cea.vteximg.com.br/arquivos/logo-cea-black.png?v=636350211130800000",
+        "iconLogoMobile":"https://cea.vteximg.com.br/arquivos/logo_cea.png?v=636350211122300000",
+        "iconMenuMobile":"https://d1ei86x16ftk6v.cloudfront.net/2018/07/icon-menu-white.svg",
+        "iconSearchMobile": "https://uploaddeimagens.com.br/images/001/533/968/original/icon-search.svg?1532789568",
+        "home":"https://www.cea.com.br/",
+        "loading":"https://uploaddeimagens.com.br/images/001/529/214/original/Rolling-1s-132px.gif?1532573355",
+        "login":{
+            "text1":"Olá visitante, Bem vindo!",
+            "text2":"Faça seu login",
+            "text3":"ou",
+            "links":[
+                {
+                "id":"link-login",
+                "label":"aqui",
+                "href":"https://www.cea.com.br/login"
+                },
+                {
+                "id":"link-cadastre-se",
+                "label":"cadastre-se",
+                "href":"https://www.cea.com.br/login"
+                }
+            ]            
+        },
+        "search":{
+          "placeholder":"Digite aqui sua pesquisa",
+          "button":{"value":"BUSCAR"}
+        },
+        "toteBag":{
+          "bagIcon":"https://cdn0.iconfinder.com/data/icons/citycons/150/Citycons_bag-512.png",
+          "link":{
+              "id":"link-bag",
+              "label":"Minha sacola",
+              "href":"https://www.cea.com.br/checkout#/cart"
+          },
+          "qtdaItens":0,
+          "priceTotal":"R$ 0,00",
+          "links":[
+            {
+              "id":"link-meus-pedidos",
+              "label":"Meus Pedidos",
+              "href":"https://www.cea.com.br/login"
+            },
+            {
+              "id":"link-meu-cadastro",
+              "label":"Meu Cadastro",
+              "href":"https://www.cea.com.br/login"
+            },
+            {
+              "id":"link-atendimento",
+              "label":"Atendimento",
+              "href":"https://www.cea.com.br/ajuda-cea"
+            },
+            {
+              "id":"link-lista-presente",
+              "label":"Lista de Presentes",
+              "href":"https://busca.cea.com.br/busca?q=cartao+presente+virtual&sug=1"
+            }
+          ]
+        },
+        "menuItens": [
+            {
+              "id":"menu-item-01",
+              "title":"HOMEM",
+              "href":"https://www.cea.com.br/moda-masculina"
+            },
+            {
+              "id":"menu-item-02",
+              "title":"MULHER",
+              "href":"https://www.cea.com.br/moda-feminina"
+            },
+            {
+              "id":"menu-item-03",
+              "title":"CABELO",
+              "href":"https://www.cea.com.br/beleza/cabelos?O=OrderByTopSaleDESC"
+            },
+            {
+              "id":"menu-item-04",
+              "title":"DÊO-COLONIA",
+              "href":"https://www.cea.com.br/beleza/perfumes?O=OrderByTopSaleDESC"
+            },
+            {
+              "id":"menu-item-05",
+              "title":"ROSTO",
+              "href":"https://www.cea.com.br/beleza/perfumes?O=OrderByTopSaleDESC"
+            },
+            {
+              "id":"menu-item-06",
+              "title":"PELE",
+              "href":"https://www.cea.com.br/beleza/corpo-e-banho?O=OrderByTopSaleDESC"
+            },
+            {
+              "id":"menu-item-08",
+              "title":"NOVIDADES",
+              "href":"https://www.cea.com.br/novidades"
+            }
+        ],
+        "iconsMenu":{
+          "iconClose":"https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/close-512.png",
+          "iconAfter":"https://uploaddeimagens.com.br/images/001/534/264/original/icon-mobile-arrow-right-black.svg?1532804372"
+        }
+      },
+      "headerContent":{
+        "banners":[
+          {
+            "id":"banner-01",
+            "url":"https://cea.vteximg.com.br/arquivos/banner-principal-neymar.png",
+            "cards":[
+              {
+                "id":"card-01",
+                "url":"https://cea.vteximg.com.br/arquivos/imagem_por-neymar.png?v=636676935642500000"
+              },
+              {
+                "id":"card-02",
+                "url":"https://cea.vteximg.com.br/arquivos/gifDavi-two.png"
+              },
+              {
+                "id":"card-03",
+                "url":"https://cea.vteximg.com.br/arquivos/gifDavi-one.png"
+              }
+            ]
+          },
+          {
+            "id":"banner-02",
+            "url":"https://cea.vteximg.com.br/arquivos/ids/4029239/1200x200_dia_dos_pais_com_botao_v23.jpg?v=636682212073900000",
+            "cards":[
+              {
+                "id":"card-01",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/4028797-468-560/Camiseta-Masculina-Esportiva-Ace--Weakness-is-a-Choice--Manga-Curta-Gola-Careca-Preta-9190239-Preto_1.jpg?v=636682163058100000"
+              },
+              {
+                "id":"card-02",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/4028778-1000-1200/Camiseta-Masculina-Esportiva-Ace--Superfast--Manga-Curta-Gola-Careca-Branca-9190430-Branco_1.jpg?v=636682160180700000"
+              },
+              {
+                "id":"card-03",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/4028774-1000-1200/Bermuda-Masculina-Esportiva-de-Treino-Ace-com-Recortes-Cinza-Mescla-9208057-Cinza_Mescla_1.jpg?v=636682160061370000"
+              }
+            ]
+          },
+          {
+            "id":"banner-03",
+            "url":"https://cea.vteximg.com.br/arquivos/ceaelab-banner-top-desk.jpg",
+            "cards":[
+              {
+                "id":"card-01",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/3918854-1000-1200/Body-Feminino-LAB-Gola-Alta-Estampado-de-Frases-com-Ziper-de-Argola-Preto-9225672-Preto_1.jpg?v=636674458032600000"
+              },
+              {
+                "id":"card-02",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/3858516-1000-1200/Camiseta-Masculina-LAB-A-Rua-E-Noiz-Manga-Curta-Gola-Careca-Preta-9170178-Preto_2.jpg?v=636670182086030000"
+              },
+              {
+                "id":"card-03",
+                "url":"https://cea.vteximg.com.br/arquivos/ids/3858422-1000-1200/Camiseta-Masculina-LAB-Emicida-Triunfo-Manga-Curta-Gola-Careca-Cinza-Mescla-9170185-Cinza_Mescla_1.jpg?v=636670174761200000"
+              }
+            ]
+          }
+        ]
+      },
+      "content":{
+        "title":"Vitrine",
+        "cards":[
+          {
+            "id":"card01",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card02",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card03",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card04",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card05",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card06",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card07",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card08",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card09",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card10",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card11",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card12",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          }
+        ]
+      },
+      "footerContent":{
+        "title":"Produtos mais vistos",
+        "cards":[
+          {
+            "id":"card01",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card02",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card03",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card04",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card05",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card06",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card07",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card08",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card09",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/1529375-1000-1200/image-727bf79d96e749a2b6d21c21fe04c91a.jpg?v=636372075895430000",
+            "title":"Perfume her secret temptation feminino eau de toilette",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-her-secret-temptation-feminino-eau-de-toilette-2153026/p"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card10",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453435-1000-1200/1.jpg?v=636549200608170000",
+            "title":"Perfume aurien rubra feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card11",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/2453495-1000-1200/1.jpg?v=636549201231770000",
+            "title":"Perfume aurien gold feminino deo colônia 100ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/perfume-aurien-rubra-feminino-deo-colonia-2176723/p?idsku=2433132&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          },
+          {
+            "id":"card12",
+            "imageLink":"https://cea.vteximg.com.br/arquivos/ids/693514-1000-1200/image-a4463399560248fc93f73113f78d2cff.jpg?v=636035747447070000",
+            "title":"Aurien deo colônia eudora - aurien deo colônia feminina 95ml",
+            "commandLink":{"label":"+ Detalhes", "href":"https://www.cea.com.br/aurien-deo-colonia-eudora-2097459/p?idsku=2307125&catby=chaordic&pagcat=product&div=chaordic-similaritems"},
+            "price":{"before":"R$ 300,00", "after":"R$ 200,00"}
+          }
+      ]
+    },
+    "sideNav":{
+      "menus":[
+        {
+          "title":"Marca",
+          "itens":[
+            {
+              "id":"item-01",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-02",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-03",
+              "title":"title menu item"
+          }
+          ]
+        },
+        {
+          "title":"Faixa de preço",
+          "itens":[
+            {
+              "id":"item-01",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-02",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-03",
+              "title":"title menu item"
+          }
+          ]
+        },
+        {
+          "title":"Cor",
+          "itens":[
+            {
+              "id":"item-01",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-02",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-03",
+              "title":"title menu item"
+          }
+          ]
+        },
+        {
+          "title":"Tamanho",
+          "itens":[
+            {
+              "id":"item-01",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-02",
+              "title":"title menu item"
+          },
+          {
+              "id":"item-03",
+              "title":"title menu item"
+          }
+          ]
+        }
+      ],
+      "banners":[
+         {
+           "id":"banner-01",
+           "image":"http://cea.vteximg.com.br/arquivos/586x300_fem_colecao_inverno_ID-2586.jpg?v=636547112819270000"
+         },
+         {
+          "id":"banner-01",
+          "image":"http://cea.vteximg.com.br/arquivos/586x300_fem2_blusas_ID-2576.jpg?v=636655473343870000"
+        }
+      ]
+    }
+}

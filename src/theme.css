@@ -1,0 +1,97 @@
+:root {
+    --theme-color-primary : #15748B;
+    --theme-color-primary-hover : #1DAC9A;
+    --theme-color-secundary: #c1e582;
+    --theme-color-white: #ffffff;
+    --theme-color-grey:#808080;
+    --theme-color-black:#000000;
+    --theme-color-silver: #d1d3d4;
+    --theme-transition: 0.45s linear;
+    --theme-transition-input: 0.15s ;
+    --theme-transition-background: background-color .45s cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+* { margin: 0; padding: 0; outline: none}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #fcfcfc 
+}
+
+a:hover{
+    font-weight: bold;    
+}
+
+p{
+    color: var(--theme-color-grey);    
+}
+
+label{
+    color: var(--theme-color-white);
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+}
+::-webkit-input-placeholder{
+    color: var(--theme-color-grey);
+    font-weight: 300;
+    opacity: 1;
+    transition: 0.45s linear;
+}
+
+
+.screen{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: var(--theme-color-black);
+    transition: all .6s cubic-bezier(0.76, 0.01, 0, 1.07);
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.80;
+    pointer-events: none;
+    position: fixed;
+    z-index: 1;
+}
+
+/* HAS BORDER ON HOVER */
+.has-border-on-hover{
+    position: relative;
+}
+.has-border-on-hover:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.has-border-on-hover:before,
+.has-border-on-hover:after {
+    background: transparent;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transition: all .35s ease-in-out;
+}
+.has-border-on-hover:before {
+    width: 100%;
+    height: 0;
+    border-left: 1px solid var(--theme-color-primary-hover);
+    border-right: 1px solid var(--theme-color-primary-hover);
+}
+.has-border-on-hover:after {
+    width: 0;
+    height: 100%;
+    border-top: 1px solid var(--theme-color-primary-hover);
+    border-bottom: 1px solid var(--theme-color-primary-hover);
+}
+
+.has-border-on-hover:hover:before {
+    height: 100%;
+}
+.has-border-on-hover:hover:after {
+    width: 100%;
+}
+
+@media only screen and (max-width:1024px){
+    body,html{overflow-x: hidden};
+}

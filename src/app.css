@@ -1,0 +1,26 @@
+.app{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.grid-template{
+	grid-template-columns: 20% auto;
+	grid-template-rows: auto auto auto auto 150px;
+	grid-template-areas:
+    "header header"
+    "header-content header-content"
+    "side-nav content"
+    "footer-content footer-content"
+    "footer footer"	;
+}
+
+@media only screen and (max-width:1024px){
+    .grid-template{        
+        grid-template-areas:
+        "header header"
+        "header-content header-content"
+        "content content"
+        "footer-content footer-content"
+        "footer footer"	;
+    }     
+}

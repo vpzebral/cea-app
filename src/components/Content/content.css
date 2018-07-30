@@ -1,0 +1,33 @@
+.content{
+    grid-area: content;
+    overflow: hidden;
+    
+}
+.content .header-vitrine{
+    display: grid;
+    padding: 0 10px;
+    height: 30px;
+    background: var(--theme-color-primary);
+    width: 95%;
+    align-items: center;
+    margin: auto;
+}
+
+.content .grid-vitrine{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap:10px;
+    justify-items: center;
+    padding: 10px 0;    
+}
+
+@media only screen and (max-width:1024px){
+    .content .header-vitrine{
+        width: 100%;
+    }
+
+    .content .header-vitrine{
+        justify-items: center;
+    }
+}

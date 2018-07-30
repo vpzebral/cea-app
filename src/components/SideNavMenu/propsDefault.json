@@ -1,0 +1,17 @@
+{
+    "title":"Title",
+    "items":[
+        {
+            "id":"item-01",
+            "title":"title menu item"
+        },
+        {
+            "id":"item-02",
+            "title":"title menu item"
+        },
+        {
+            "id":"item-03",
+            "title":"title menu item"
+        }
+    ]
+}

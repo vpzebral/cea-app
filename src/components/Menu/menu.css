@@ -1,0 +1,103 @@
+.menu{
+    background-color: var(--theme-color-primary);
+    height: 60px;
+    align-self: end;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;    
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: var(--theme-color-white);
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    transition: var(--theme-transition-background);
+}
+
+.menu li a:hover {
+    background-color: var(--theme-color-primary-hover);
+    color: var(--theme-color-secundary);
+}
+
+.menu-mobile{
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    background-color: var(--theme-color-white);
+    z-index: 2;
+    overflow-y: auto;
+    will-change: transform;    
+    backface-visibility: hidden;
+    transition: var(--theme-transition);    
+}
+
+.menu-mobile .box-login-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+.menu-mobile .box-close .icon-close-menu{
+    height: 25px;
+}
+
+.menu-mobile ul li{
+    height: 40px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 10px;
+    background-color: var(--theme-color-primary);
+    border-bottom: 1px solid var(--theme-color-silver);
+}
+
+
+
+.menu-mobile ul li a {
+    display: block;
+    color: var(--theme-color-white);  
+    text-decoration: none;
+    transition: var(--theme-transition-background);
+}
+
+.menu-mobile ul li a:focus{
+    color: var(--theme-color-secundary);
+}
+
+.menu-mobile .menu-mobile-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: start;
+    padding: 10px 10px;
+}
+
+.menu-mobile .menu-mobile-tote-bag{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-mobile .icon-tote-bag{
+    height: 50px;
+    padding: 0 5px 0 0;
+}

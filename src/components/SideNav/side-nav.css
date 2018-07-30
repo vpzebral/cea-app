@@ -1,0 +1,18 @@
+.side-nav{
+    grid-area: side-nav;   
+}
+.side-nav .container{
+    display: grid;
+    padding: 0 0 0 10px;
+}
+
+.side-nav .side-banner{
+    height: 150px;    
+    margin: 10px 0;
+    cursor: pointer
+}
+
+.side-nav .img-banner{
+    height: 150px;
+    width: 100%;
+}
