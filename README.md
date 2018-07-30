@@ -1,6 +1,6 @@
 # App para C&A Teste front-end
 
-    ### app desenvolvido em ReactJS e utilizando o https://www.mocky.io/
+    ## app desenvolvido em ReactJS e utilizando o https://www.mocky.io/
 
         Url para versão : http://www.mocky.io/v2/5b5e74612e0000340069450f
 
